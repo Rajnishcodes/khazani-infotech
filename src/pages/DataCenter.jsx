@@ -8,7 +8,7 @@ import DnsIcon from "@mui/icons-material/Dns";
 import PowerIcon from "@mui/icons-material/Power";
 
 import "../styles/DataCenter.css";
-import dataCenter from "../assets/datacenter.png"; // ⚡ Replace with your image
+import dataCenter from "../assets/dataCenter.png"; // ⚡ Replace with your image
 
 // Dynamic Features Array
 const features = [
