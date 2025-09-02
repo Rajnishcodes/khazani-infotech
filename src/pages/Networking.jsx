@@ -8,7 +8,7 @@ import SpeedIcon from "@mui/icons-material/Speed";
 import CloudIcon from "@mui/icons-material/Cloud";
 
 import "../styles/Networking.css";
-import networkingImg from "../assets/networking.png"; // ⚡ Replace with your image
+import networking from "../assets/networking.png"; // ⚡ Replace with your image
 
 // Dynamic Networking Features
 const features = [
@@ -80,7 +80,7 @@ const Networking = () => {
 
         <div className="nt-image">
           <img
-            src={networkingImg}
+            src={networking}
             alt="Networking Solutions"
             loading="lazy"
           />

@@ -8,7 +8,7 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import UpdateIcon from "@mui/icons-material/Update";
 
 import "../styles/AuthorizedService.css";
-import serviceImg from "../assets/authorizedService.png"; // ⚡ replace with your image
+import authorizedService from "../assets/authorizedService.png"; // ⚡ replace with your image
 
 // Features list (dynamic)
 const features = [
@@ -82,7 +82,7 @@ const AuthorizedService = () => {
 
         <div className="authorized-image">
           <img
-            src={serviceImg}
+            src={authorizedService}
             alt="Authorized service center support"
             loading="lazy"
           />

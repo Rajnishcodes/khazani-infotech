@@ -8,7 +8,7 @@ import DevicesIcon from "@mui/icons-material/Devices";
 import BuildIcon from "@mui/icons-material/Build";
 
 import "../styles/NetworkIntegration.css";
-import networkImg from "../assets/networkIntegration.png"; // ⚡ replace with your actual image
+import networkIntegration from "../assets/networkIntegration.png"; // ⚡ replace with your actual image
 
 // Dynamic features
 const features = [
@@ -80,7 +80,7 @@ const NetworkIntegration = () => {
 
         <div className="network-image">
           <img
-            src={networkImg}
+            src={networkIntegration}
             alt="Network integration illustration"
             loading="lazy"
           />

@@ -8,7 +8,7 @@ import StorageIcon from "@mui/icons-material/Storage";
 import UpdateIcon from "@mui/icons-material/Update";
 
 import "../styles/Computer.css";
-import computerImg from "../assets/computer.png"; // ⚡ Replace with your own image
+import computer from "../assets/computer.png"; // ⚡ Replace with your own image
 
 // Dynamic Features Array
 const features = [
@@ -77,7 +77,7 @@ const Computer = () => {
 
         <div className="comp-image">
           <img
-            src={computerImg}
+            src={computer}
             alt="Computer Solutions illustration"
             loading="lazy"
           />

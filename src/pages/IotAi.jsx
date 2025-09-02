@@ -8,7 +8,7 @@ import SensorsIcon from "@mui/icons-material/Sensors";
 import AutoGraphIcon from "@mui/icons-material/AutoGraph";
 
 import "../styles/IotAi.css";
-import iotAiImg from "../assets/iotAi.png"; // ⚡ replace with your image
+import iotAi from "../assets/iotAi.png"; // ⚡ replace with your image
 
 // Dynamic Features Array
 const features = [
@@ -99,7 +99,7 @@ const IotAi = () => {
 
         <div className="iot-image">
           <img
-            src={iotAiImg}
+            src={iotAi}
             alt="IoT and AI illustration"
             loading="lazy"
           />

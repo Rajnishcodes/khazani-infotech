@@ -8,7 +8,7 @@ import BackupIcon from "@mui/icons-material/Backup";
 import DevicesIcon from "@mui/icons-material/Devices";
 
 import "../styles/CloudSolution.css";
-import cloudImg from "../assets/cloudSolution.png"; // ⚡ replace with actual image
+import cloudSolution from "../assets/cloudSolution.png"; // ⚡ replace with actual image
 
 // Dynamic Features
 const features = [
@@ -83,7 +83,7 @@ const CloudSolution = () => {
 
         <div className="cloud-image">
           <img
-            src={cloudImg}
+            src={cloudSolution}
             alt="Cloud computing illustration"
             loading="lazy"
           />

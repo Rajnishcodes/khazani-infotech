@@ -8,7 +8,7 @@ import VerifiedUserIcon from "@mui/icons-material/VerifiedUser";
 import StorageIcon from "@mui/icons-material/Storage";
 
 import "../styles/DataCenterSecurity.css";
-import datacenterImg from "../assets/dataCenterSecurity.png"; // ⚡ replace with your image
+import dataCenterSecurity from "../assets/dataCenterSecurity.png"; // ⚡ replace with your image
 
 // Dynamic features
 const features = [
@@ -84,7 +84,7 @@ const DataCenterSecurity = () => {
 
         <div className="dcs-image">
           <img
-            src={datacenterImg}
+            src={dataCenterSecurity}
             alt="Data center security illustration"
             loading="lazy"
           />

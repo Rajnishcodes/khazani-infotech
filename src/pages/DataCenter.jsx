@@ -8,7 +8,7 @@ import DnsIcon from "@mui/icons-material/Dns";
 import PowerIcon from "@mui/icons-material/Power";
 
 import "../styles/DataCenter.css";
-import dataCenterImg from "../assets/datacenter.png"; // ⚡ Replace with your image
+import dataCenter from "../assets/datacenter.png"; // ⚡ Replace with your image
 
 // Dynamic Features Array
 const features = [
@@ -83,7 +83,7 @@ const DataCenter = () => {
 
         <div className="dc-image">
           <img
-            src={dataCenterImg}
+            src={dataCenter}
             alt="Data Center Solutions"
             loading="lazy"
           />
