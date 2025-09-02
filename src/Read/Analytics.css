@@ -1,0 +1,206 @@
+/* === Hero Section === */
+.analytics-hero {
+  background: url("../assets/analyticsBg.png") no-repeat center center / cover;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+.analytics-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 20px;
+}
+
+.analytics-hero-content {
+  margin-right: 500px;
+  text-align: justify;
+}
+
+.analytics-hero h1 span {
+  background: linear-gradient(90deg, #ff52ec, #6f57ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.analytics-hero p {
+  font-size: 1.2rem;
+  max-width: 750px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* === Intro Section === */
+.analytics-intro {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 20px;
+  gap: 40px;
+}
+
+.analytics-intro-content {
+  max-width: 1000px;
+  text-align: justify;
+}
+
+.analytics-intro-content h1 span {
+  background: linear-gradient(90deg, #ff52ec, #6f57ff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding: 10px;
+}
+
+.analytics-intro-content p {
+  margin-bottom: 18px;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #333;
+  padding: 10px;
+}
+
+.analytics-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.analytics-image img {
+  width: 100%;
+  height: 400px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+/* === Features Section === */
+.analytics-features {
+  padding: 40px 20px;
+  background: #f9fbfd;
+  text-align: center;
+}
+
+.analytics-features h2 {
+  font-size: 2.2rem;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.analytics-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.analytics-card {
+  background: #fff;
+  border-radius: 15px;
+  padding: 30px 20px;
+  box-shadow: 0px 8px 25px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.analytics-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.15);
+}
+
+.analytics-icon {
+  font-size: 40px;
+  color: #0072ff;
+  margin-bottom: 20px;
+}
+
+/* === CTA Section === */
+.analytics-cta {
+  background: linear-gradient(90deg, #ff52ec, #6f57ff);
+  text-align: center;
+  padding: 70px 20px;
+  color: #fff;
+}
+
+.analytics-cta h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.analytics-cta p {
+  font-size: 1.1rem;
+  margin-bottom: 25px;
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.analytics-cta .contact-btn {
+  background: #0052cc;
+  color: #fff;
+  border: none;
+  padding: 14px 34px;
+  border-radius: 30px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.analytics-cta .contact-btn:hover {
+  background: #003c99;
+}
+
+/* === Responsive Design === */
+@media (max-width: 1024px) {
+  .analytics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .analytics-hero-content {
+    margin-right: 0;
+    text-align: center;
+  }
+}
+
+@media (max-width: 768px) {
+  .analytics-hero h1 {
+    font-size: 2.2rem;
+  }
+
+  .analytics-hero p {
+    font-size: 1rem;
+  }
+
+  .analytics-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .analytics-cta h2 {
+    font-size: 1.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .analytics-hero {
+    padding: 70px 15px 50px;
+  }
+
+  .analytics-hero h1 {
+    font-size: 1.8rem;
+  }
+
+  .analytics-hero p {
+    font-size: 0.95rem;
+  }
+
+  .analytics-intro {
+    font-size: 1rem;
+    padding: 40px 15px;
+  }
+
+  .analytics-cta p {
+    font-size: 1rem;
+  }
+}

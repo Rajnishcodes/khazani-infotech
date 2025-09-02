@@ -1,0 +1,143 @@
+/* Footer Base */
+.footer {
+  background: #111;
+  color: #ddd;
+  padding: 3rem 1.5rem;
+  position: relative;
+  font-family: "Segoe UI", sans-serif;
+}
+
+/* Footer Container */
+.footer-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Grid Layout */
+.footer-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+@media (min-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* About Us */
+.footer-about h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.footer-about p {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #bbb;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.footer-socials a {
+  color: #bbb;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.footer-socials a:hover {
+  color: #7d5fff; /* Accent color */
+}
+
+/* Contact Section */
+.footer-contact h5 {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.icon-circle {
+  width: 40px;
+  height: 40px;
+  background: #222;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 0.8rem;
+  font-size: 1.2rem;
+  color: #7d5fff;
+}
+
+.contact-item a {
+  color: #bbb;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact-item a:hover {
+  color: #fff;
+}
+
+/* Contact Button */
+.contact-btn {
+  background: #7d5fff;
+  color: #fff;
+  border: none;
+  padding: 0.7rem 1.5rem;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.contact-btn:hover {
+  background: #5a3dcc;
+}
+
+/* Divider & Copyright */
+.footer hr {
+  border: 0;
+  border-top: 1px solid #333;
+  margin: 2rem 0;
+}
+
+.footer-copy {
+  text-align: center;
+  font-size: 0.9rem;
+  color: #777;
+}
+
+/* Floating Chatbot Button */
+.chatbot-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #7d5fff;
+  color: #fff;
+  border: none;
+  padding: 0.8rem;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.chatbot-btn:hover {
+  background: #5a3dcc;
+  transform: scale(1.1);
+}
