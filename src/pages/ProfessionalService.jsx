@@ -8,7 +8,7 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 
 import "../styles/ProfessionalService.css";
-import serviceImg from "../assets/professionalService.png"; 
+import serviceImg from "../assets/professionalService.png"; // ⚡ replace with your image
 
 // Features list (dynamic)
 const features = [

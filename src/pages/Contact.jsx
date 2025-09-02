@@ -1,12 +1,12 @@
 import React, { useState } from "react";
 import "../styles/Contact.css";
 
-const SimpleContactForm = () => {
+const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: "",
     email: "",
-    subject: "",
     phone: "",
+    subject: "",
     service: "",
     message: "",
   });
@@ -29,6 +29,15 @@ const SimpleContactForm = () => {
 
       const data = await res.json();
       alert(data.message || "Message sent successfully!");
+      // reset form after successful submit
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        subject: "",
+        service: "",
+        message: "",
+      });
     } catch (error) {
       alert("Error submitting form");
       console.error(error);
@@ -66,23 +75,23 @@ const SimpleContactForm = () => {
           <div className="form-row">
             <input
               type="text"
-              id="subject"
-              placeholder="Subject"
-              value={formData.subject}
+              id="phone"
+              placeholder="Phone"
+              value={formData.phone}
               onChange={handleChange}
             />
             <input
               type="text"
-              id="phone"
-              placeholder="Contact Number"
-              value={formData.phone}
+              id="subject"
+              placeholder="Subject"
+              value={formData.subject}
               onChange={handleChange}
             />
           </div>
 
           <textarea
             id="message"
-            placeholder="Message"
+            placeholder="Your Message *"
             rows="6"
             value={formData.message}
             onChange={handleChange}
@@ -90,7 +99,7 @@ const SimpleContactForm = () => {
           ></textarea>
 
           <button type="submit" className="send-btn">
-            SEND MESSAGE
+            Send Message
           </button>
         </form>
       </div>
@@ -98,4 +107,4 @@ const SimpleContactForm = () => {
   );
 };
 
-export default SimpleContactForm;
+export default ContactForm;
