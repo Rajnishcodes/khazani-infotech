@@ -47,7 +47,9 @@ export default function Footer() {
               <div className="icon-circle">
                 <MdPhone />
               </div>
-              <a href="tel:+919996790786">+91 9996790786</a>
+              <a href="tel:+919996790786">+91 9996790786</a>,
+              <a href="tel:+919817980806">+91 9817980806</a>,
+              <a href="tel:+918130702488">+91 8130702488</a>
             </div>
             <div className="contact-item">
               <div className="icon-circle">
