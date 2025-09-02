@@ -8,7 +8,7 @@ import SpeedIcon from "@mui/icons-material/Speed";
 import SyncAltIcon from "@mui/icons-material/SyncAlt";
 
 import "../styles/ClientSideComputing.css";
-import clientImg from "../assets/clientComputing.png"; // ⚡ replace with actual image
+import clientComputing from "../assets/clientComputing.png"; // ⚡ replace with actual image
 
 // Features list (dynamic)
 const features = [
@@ -86,7 +86,7 @@ const ClientSideComputing = () => {
 
         <div className="client-image">
           <img
-            src={clientImg}
+            src={clientComputing}
             alt="Client-side computing illustration"
             loading="lazy"
           />
