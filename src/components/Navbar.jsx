@@ -101,8 +101,7 @@ const Navbar = () => {
               activeDropdown === "services" ? "show" : ""
             }`}
           >
-            <div>
-              <h4></h4>
+          
               <Link to="/clientsidecomputing">
                 <li>Client Side Computing</li>
               </Link>
@@ -119,7 +118,7 @@ const Navbar = () => {
                 <li>IOT & AI</li>
               </Link>
             </div>
-          </div>
+          
         </li>
 
         {/* Hardware Dropdown */}
@@ -134,8 +133,7 @@ const Navbar = () => {
               activeDropdown === "hardware" ? "show" : ""
             }`}
           >
-            <div>
-              <h4></h4>
+            
               <Link to="/computer">
                 <li>Computers</li>
               </Link>
@@ -146,7 +144,7 @@ const Navbar = () => {
                 <li>Networking</li>
               </Link>
             </div>
-          </div>
+          
         </li>
 
         {/* Static Links */}

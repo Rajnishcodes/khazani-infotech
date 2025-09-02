@@ -201,6 +201,32 @@ body, html {
   transition: background 0.3s ease;
 }
 
+/* Fix mega dropdown text color */
+.mega-dropdown li {
+  list-style: none;
+  padding: 8px 12px;
+  color: #24272c; /* Dark text */
+  font-size: 0.95rem;
+}
+
+.mega-dropdown li:hover {
+  background: #f5f5f5;
+  border-radius: 4px;
+}
+
+/* Fix mega dropdown link colors */
+.mega-dropdown a {
+  text-decoration: none;
+  color: #24272c !important; /* Override white */
+  display: block;
+  font-weight: 500;
+}
+
+.mega-dropdown a:hover {
+  color: #6f57ff !important; /* Accent color on hover */
+}
+
+
 /* === Contact Button (gradient) === */
 .contact-btn {
   font-weight: 500 !important;

@@ -6,17 +6,22 @@
   --btn: #0072ff;
   --btn-hover: #0056cc;
 }
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* === Hero Section === */
 .authorized-hero {
   background: url("../assets/backgroundImage.png") no-repeat center / cover;
   width: 100%;
-  min-height: 80vh;
+  min-height: 100vh;
   display: grid;
   place-items: center;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 14px 0px 0px 0px;
 }
 
 .authorized-hero h1 {
@@ -30,7 +35,7 @@
   -webkit-text-fill-color: transparent;
 }
 .authorized-hero-content{
-  margin-right: 500px;
+  margin-right: 700px;
   text-align: justify;
 }
 
@@ -47,7 +52,7 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 40px;
-  padding: 60px 20px;
+  padding: 10px 20px;
 }
 .authorized-intro {
   text-align: justify;

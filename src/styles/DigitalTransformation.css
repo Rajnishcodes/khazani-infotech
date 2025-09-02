@@ -1,3 +1,8 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 /* === Hero Section === */
 .dt-hero {
   background: url("../assets/backgroundImage.png") no-repeat center center / cover;
@@ -9,7 +14,7 @@
   justify-content: center;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 14px 0px 0px 0px;
 }
 
 .dt-hero h1 {

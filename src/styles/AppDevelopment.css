@@ -1,3 +1,4 @@
+
 /* === Hero Section === */
 .app-hero {
   background: url("../assets/backgroundImage.png") no-repeat center center / cover;
@@ -9,7 +10,7 @@
   justify-content: center;
   color: #fff;
   text-align: center;
-  padding: 20px;
+  padding: 14px 0px 0px 0px;
 }
 
 .app-hero h1 {
@@ -17,7 +18,7 @@
   margin-bottom: 20px;
 }
 .app-hero-content{
-  margin-right: 500px;
+  margin-right: 700px;
   text-align: justify;
 }
 
