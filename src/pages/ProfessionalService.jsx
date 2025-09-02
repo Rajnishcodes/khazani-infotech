@@ -8,7 +8,7 @@ import PeopleAltIcon from "@mui/icons-material/PeopleAlt";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 
 import "../styles/ProfessionalService.css";
-import serviceImg from "../assets/professionalService.png"; // ⚡ replace with your image
+import professionalService from "../assets/professionalService.png"; // ⚡ replace with your image
 
 // Features list (dynamic)
 const features = [
@@ -82,7 +82,7 @@ const ProfessionalService = () => {
 
         <div className="professional-image">
           <img
-            src={serviceImg}
+            src={professionalService}
             alt="Professional business service"
             loading="lazy"
           />
