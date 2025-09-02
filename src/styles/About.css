@@ -12,7 +12,8 @@
 }
 
 .about-hero-content {
-  max-width: 700px;
+  margin-left: 50px;
+  text-align: justify;
 }
 
 .about-hero h1 span {
