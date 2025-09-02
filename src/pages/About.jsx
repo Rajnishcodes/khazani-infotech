@@ -86,28 +86,7 @@ const About = () => {
         </div>
       </section>
 
-      {/* === Team Section === */}
-      <section className="about-team">
-        <h2>Meet Our Team</h2>
-        <div className="team-grid">
-          <div className="team-card">
-            <img src="https://via.placeholder.com/150" alt="Team Member" />
-            <h3>John Doe</h3>
-            <p>CEO & Founder</p>
-          </div>
-          <div className="team-card">
-            <img src="https://via.placeholder.com/150" alt="Team Member" />
-            <h3>Jane Smith</h3>
-            <p>CTO</p>
-          </div>
-          <div className="team-card">
-            <img src="https://via.placeholder.com/150" alt="Team Member" />
-            <h3>Michael Lee</h3>
-            <p>Lead Developer</p>
-          </div>
-        </div>
-      </section>
-
+      
       {/* === CTA Section === */}
       <section className="about-cta">
         <h2>Let’s Grow Together</h2>
