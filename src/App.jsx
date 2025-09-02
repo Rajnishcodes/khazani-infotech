@@ -20,7 +20,6 @@ import DataCenter from "./pages/DataCenter";
 import Networking from "./pages/Networking";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Analytics from "./Read/Analytics";
 import CaseStudy from "./pages/CaseStudy";
 
 function App() {
@@ -56,7 +55,6 @@ function App() {
         <Route path="/networking" element={<Networking />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/analytics" element={<Analytics />} />
         <Route path="/casestudy" element={<CaseStudy />} />
       </Routes>
 
