@@ -31,7 +31,8 @@ body, html {
   gap: 50px;
   width: 100%;
   position: relative;
-  z-index: 2;
+  z-index: 1070;
+  top: 50px;
 }
 .hero::before {
   content: "";
@@ -48,7 +49,7 @@ body, html {
 .hero-text {
   flex: 1 1 500px;
   min-width: 300px;
-  padding: 100px 10px 0px 34px;
+  padding: 10px 10px 0px 34px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -213,10 +214,8 @@ body, html {
 .service-card {
   background: #ffffff;
   border-radius: 22px;
-  padding: 11px 40px 36px 30px;
-  margin: 11px 10px 38px 16px;
-  margin-left: 10px;
-  margin-top: -30px;
+  padding: 30px 20px;
+  margin: 0px;
   text-align: center;
   box-shadow: inset 0px 8px 25px rgba(0, 0, 0, 0.8) !important;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
